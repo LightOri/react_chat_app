@@ -1,0 +1,80 @@
+.contact-wrapper {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-wrapper:target {
+    background-color: #f23f79;
+}
+
+.contact-wrapper:target .contact-time {
+    color: #f23f79;
+    background-color: white;
+}
+
+.round-user-icon {
+    width: 48px;
+    min-width: 48px;
+    height: 48px;
+    min-height: 48px;
+    margin: 15px;
+    border-radius: 50%;
+    background-image: url(/img/Barack-Obama.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: contain;
+}
+
+.contact-info {
+    overflow: hidden;
+    padding-right: 5px;
+    padding-left: 5px;
+    flex-grow: 1;
+}
+
+.contact-info h4 {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    overflow: hidden;
+    margin-top: 0;
+    margin-bottom: 6px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.contact-info p {
+    font-family: "Lato", sans-serif;
+    font-size: 13px;
+    font-weight: 100;
+    overflow: hidden;
+    margin-top: 0;
+    margin-bottom: 2px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    opacity: 0.5;
+}
+
+.contact-time {
+    display: flex;
+    min-width: 50px;
+    height: 1.2em;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 0.6em;
+    background-color: #37398d;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-time p {
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 0;
+    opacity: 0.5;
+}

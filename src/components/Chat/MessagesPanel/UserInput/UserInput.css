@@ -1,0 +1,54 @@
+.bottom-area {
+    display: flex;
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    align-items: center;
+}
+
+.typing-box {
+    display: flex;
+    width: 100%;
+    margin: 0 25px;
+    padding: 6px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #ededfa;
+    align-items: center;
+}
+
+.typing-box input {
+    overflow: auto;
+    width: 200%;
+    margin-left: 10px;
+    border: 0;
+    outline: none;
+    background-color: #ededfa;
+}
+
+#smiley {
+    font-size: 1.6em;
+    padding-right: 5px;
+    padding-bottom: 2px;
+    cursor: pointer;
+    opacity: 0.4;
+}
+
+input[type=file] {
+    display: none;
+}
+
+label[for=file] {
+    overflow: hidden;
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+    background-image: url(/img/file.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: contain;
+}
