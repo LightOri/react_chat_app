@@ -1,5 +1,6 @@
-.message__icon {
+.message__icon-your {
     margin: 0 15px;
+    background-image: url(/img/Bill-Gates.jpg);
 }
 
 .message__text {

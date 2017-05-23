@@ -62,7 +62,16 @@
     background-color: #1c1f7c;
 }
 
-.login-section a {
+.login-section button:disabled {
+    background-color: #999;
+}
+
+.login-section button:disabled:hover {
+    background-color: #999;
+    cursor: no-drop;
+}
+
+#bottom-login-tip {
     display: block;
     width: 240px;
     margin-top: 30px;
@@ -75,7 +84,7 @@
     color: white;
 }
 
-.login-section a span {
+#bottom-login-tip span {
     font-weight: 400;
     text-decoration: underline;
 }

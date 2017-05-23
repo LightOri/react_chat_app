@@ -10,6 +10,7 @@ class Contact extends React.Component {
 	const userAvatarStyle = {backgroundImage: 'url(' + userAvatarPath + ')'};
 	// console.log(userAvatarStyle);
 
+
     return (
     	<div className="contact-wrapper" id={this.props.name.replace(' ','-')}>
     		<div className="round-user-icon" style={userAvatarStyle}></div>

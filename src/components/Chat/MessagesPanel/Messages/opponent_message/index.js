@@ -19,7 +19,7 @@ class OpponentMessage extends React.Component {
 
     return (
     	<div className="message">
-			<div className="message__icon round-user-icon"></div>
+			<div className="message__icon-opponent round-user-icon"></div>
 			<div className="message__text">
 				{formattedMessage}
 				<div className="message__time">13:58</div>

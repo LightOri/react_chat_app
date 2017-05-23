@@ -38,15 +38,15 @@ class RegisterContainer extends React.Component {
 		const password = document.forms['Register'].elements['password'];
 		const confirmPassword = document.forms['Register'].elements['confirm'];
 
-	    var goodColor = "#66cc66";
-	    var badColor = "#ff6666";
+	    const goodColor = "#66cc66";
+	    const badColor = "#ff6666";
 
 	    if(password.value === confirmPassword.value){
 	        confirmPassword.style.backgroundColor = goodColor;
 	    }else{
 	        confirmPassword.style.backgroundColor = badColor;
 	    }
-	}  
+	 }  
 
 
   render() {

@@ -60,7 +60,6 @@ class LoginContainer extends React.Component {
   }
 
 
-
   render() {
     return (
 		<Login login={this.loginStage1}/>

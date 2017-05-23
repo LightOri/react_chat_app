@@ -8,8 +8,9 @@
     margin-bottom: 60px;
 }
 
-.message__icon {
+.message__icon-opponent {
     margin: 0 15px;
+    background-image: url(/img/Barack-Obama.jpg);  
 }
 
 .message__text {

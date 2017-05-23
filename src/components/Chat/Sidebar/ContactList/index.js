@@ -21,7 +21,6 @@ class ContactList extends React.Component {
 	}
 
   render() {
-
   // filtering
 	const filter = this.props.filter;
 	var regexp = new RegExp(filter, 'i', 'g');

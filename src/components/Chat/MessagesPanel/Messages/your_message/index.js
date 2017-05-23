@@ -19,7 +19,7 @@ class YourMessage extends React.Component {
 
     return (
 		<div className="message message--right">
-			<div className="message__icon round-user-icon"></div>
+			<div className="message__icon-your round-user-icon"></div>
 			<div className="message__text message__text--right">
 				{formattedMessage}
 				<div className="message__time message__time--right">13:58</div>
