@@ -18,7 +18,7 @@ class Register extends React.Component {
   }
 
   render() {
-  	window.onload = this.btnVerification;
+  	setTimeout((window.onload = this.btnVerification), 10);
     return (
 		<section className="sign-section">
 

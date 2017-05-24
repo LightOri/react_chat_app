@@ -31,17 +31,13 @@ class Messages extends React.Component {
   render() {
   	const currentUser = JSON.parse(localStorage.getItem('userData')).user.username;
 
-
     return (
-
-
-
     	<section>
     		{messagesListWithKey.map(item => {
     			if (item.user.username === currentUser) {
-    				return <YourMessage key={item.id} message={item.msg} />
+    				return <YourMessage key={item.id} message={item.msg} time={item.time} />
 	    		} else {
-	    			return <OpponentMessage key={item.id} message={item.msg} />
+	    			return <OpponentMessage key={item.id} message={item.msg} time={item.time} />
 	    		}})
     		}
     		
